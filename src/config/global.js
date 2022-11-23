@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Documentación aplicada a la seguridad digital',
+    descripcionCurso:
+      'En este recurso educativo se desarrollan dos temas importantes para la administración de la seguridad digital: aprender a extraer y comprender la información obtenida en las fichas técnicas de los activos del sistema de seguridad digital, y revisar algunas técnicas y recomendaciones para que la documentación y otro tipo de informes cumplan con los parámetros básicos de calidad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
