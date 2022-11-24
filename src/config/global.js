@@ -14,6 +14,10 @@ export default {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
     ],
   },
   menuPrincipal: {
@@ -33,14 +37,40 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Documentación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Parámetros para recolección de la información.',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Técnicas para la documentación.',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo:
+              'Fichas técnicas y especificaciones para equipos y elementos de la infraestructura de la red.',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Elaboración de fichas.',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo:
+              'Importación de reportes e información desde el software de gestión y seguridad.',
+            hash: 't_1_5',
           },
         ],
       },
@@ -49,15 +79,35 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Elaboración de reportes',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Bitácora.',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Informe ejecutivo.',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Informe técnico.',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo:
+              'Conducto regular, escalamientos y trazabilidad de los reportes.',
+            hash: 't_2_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +152,155 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Inventario de activos',
+      referencia:
+        'Araujo A. (2021).<em> Creando un inventario de activos en 4 sencillos pasos [+Plantilla gratis]. Hackmetrix.<em> ',
+      tipo: 'Página web.',
+      link:
+        'https://blog.hackmetrix.com/inventario-de-activos-seguridad-de-la-informacion/#:~:text=Algunos%20ejemplos%20de%20activos%20de,y%20las%20de%20tu%20equipo. ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Bitácora',
+      referencia: 'Milformatos. (2022). Bitácora. ',
+      tipo: 'Página web',
+      link: 'https://milformatos.com/empresas-y-negocios/bitacora/ ',
+    },
+    {
+      tema: 'Informe ejecutivo',
+      referencia:
+        'Crehana. (2021).<em> Plantilla para reporte ejecutivo en Word.<em> ',
+      tipo: 'Página web',
+      link:
+        'https://www.crehana.com/recursos/herramientas/plantilla-reporte-ejecutivo/ ',
+    },
+    {
+      tema: 'Informe técnico',
+      referencia:
+        'Caja de la Vivienda popular. (2019).<em> Informe técnico diagnóstico del modelo de seguridad y privacidad de la información-MSPI. <em>',
+      tipo:
+        'Artículo PDF descargable, lectura y ejemplo de informe técnico recomendado',
+      link:
+        'https://www.cajaviviendapopular.gov.co/sites/default/files/208-TIC-Mn-11%20INFORME%20TE%CC%81CNICO%20DIAGNO%CC%81STICO%20DEL%20MSPI%20V1.pdf ',
+    },
+    {
+      tema: 'Gráficos estadísticos con Excel',
+      referencia:
+        'El tío estadístico. (2020).<em> Cómo crear gráficos estadísticos en Excel 2019 -sesión completa. [YouTube]. <em> ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=QXoNOpHNzKE&ab_channel=ElT%C3%ADoEstad%C3%ADstico',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Ciclo de vida documental',
+      significado:
+        'este concepto hace referencia a todas las etapas por las que pasa un documento hasta su almacenamiento. Esto incluye el levantamiento de información, creación del documento, organización y clasificación,  revisión, difusión y disposición final.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Difusión',
+      significado:
+        'para el contexto del tema, la difusión es la etapa en la que se publica o comparte la información. En esta parte se ha de tener en cuenta su grado de confidencialidad, medios y formatos por los que será compartido.',
+    },
+    {
+      termino: 'Documentación',
+      significado:
+        'es el conjunto de documentos y elementos contenedores de información, que han sido agrupados con el fin de servir como insumo para la elaboración y soporte de un informe.',
+    },
+    {
+      termino: 'Documentar',
+      significado:
+        'es el proceso de investigar, consultar y recolectar información de diversas fuentes para elaborar la documentación pertinente a un informe.',
+    },
+    {
+      termino: 'Documento ',
+      significado:
+        'es el término que se usa generalmente para referirse a cualquier tipo de archivo que contenga algún tipo de información, sea escrita, en audio, video o imágenes. La utilidad y relevancia de dicho documento variará en función del contexto en el que se examine.',
+    },
+    {
+      termino: 'Documento técnico',
+      significado:
+        'es un tipo de documento que por la temática que aborda requiere de ciertos elementos, datos y lenguaje de carácter técnico para explicar las propiedades, uso, mantenimiento o algún tipo de información referente a un elemento técnico, como lo puede ser un equipo,  herramienta, programa o procedimiento.',
+    },
+    {
+      termino: 'Informe ejecutivo',
+      significado:
+        'en el contexto del tema, el concepto ejecutivo se refiere a un tipo de informe en el que se expone de manera clara pero breve un tema que debe ser abordado con mayor atención, pero del cual se requiere una introducción para comprender el objetivo de dicha información.  Se usa principalmente para dar apertura a un informe más largo, además de informar a quienes tal vez no conocen el lenguaje técnico, pero requieren conocer la información esencial en un informe sencillo y fácil de entender. ',
+    },
+    {
+      termino: 'Ficha técnica',
+      significado:
+        'es un tipo de documento que contiene la información de carácter técnico respecto a las características de un producto, equipo, herramienta, programa o procedimiento, centrándose en cifras, datos estadísticos, matemáticos o físicos, según sea el caso. ',
+    },
+    {
+      termino: 'Filtrar',
+      significado:
+        'en el área de procesamiento de datos, el proceso de filtrado consiste en separar o tomar solo una porción del total de los datos para procesarla con un objetivo específico, y para el cual no es necesario o práctico tomar el total de datos. ',
+    },
+    {
+      termino: 'Recolección documental',
+      significado:
+        'es el proceso mediante el cual se obtiene la información contenida en documentos de diferentes formatos, fuentes y medios para su procesamiento y uso en informes o documentos más complejos.',
+    },
+    {
+      termino: 'Técnico',
+      significado:
+        'este concepto se utiliza para referirse a una ciencia, un arte o una actividad que está claramente definida mediante procedimientos y medidas basadas en datos y técnicas que involucran capacidades manuales, mentales y el uso de tecnología. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Berdejo, P. (2020).<em> Cómo diseñar correctamente fichas técnicas de un producto. <em> Integratecnologia.',
+      link:
+        'https://www.integratecnologia.es/la-innovacion-necesaria/como-disenar-correctamente-fichas-tecnicas-de-producto/ ',
+    },
+    {
+      referencia:
+        'Blasco, R. (2022).<em> Cómo hacer una bitácora de trabajo.<em> Unprofesor. ',
+      link:
+        'https://www.unprofesor.com/consejos-para-estudiar/como-hacer-una-bitacora-de-trabajo-5448.html  ',
+    },
+    {
+      referencia:
+        'Coll, F. (2021). <em> Informe ejecutivo.<em> Economipedia.  ',
+      link:
+        'https://economipedia.com/definiciones/informe-ejecutivo.html#:~:text=Un%20informe%20ejecutivo%2C%20o%20resumen,del%20proyecto%20o%20la%20compa%C3%B1%C3%ADa',
+    },
+    {
+      referencia: 'Coll, F. (2020). <em>Informe técnico. Economipedia <em> ',
+      link: 'https://economipedia.com/definiciones/informe-tecnico.html',
+    },
+    {
+      referencia:
+        'Comisión económica para América latina y el caribe, CEPAL. (2022).<em> Gestión de datos de investigación. <em> Módulo 3. Gestión de datos ',
+      link: 'https://biblioguias.cepal.org/c.php?g=495473&p=3390849 ',
+    },
+    {
+      referencia:
+        'Equipo Editorial (1991). <em> Documentación e información. Vocabulario.<em> Parte 1. Conceptos fundamentales. PNE 50-113/1ISO 5127/1 1983.<em> Revista Española De Documentación Científica, <em> 14(3), pp. 340-358. ',
+      link: 'https://biblioguias.cepal.org/c.php?g=495473&p=3390849 ',
+    },
+    {
+      referencia:
+        'López, J. (2015). <em> La información en el origen y desarrollo de la documentación. <em> ',
+      link: 'https://dialnet.unirioja.es/descarga/articulo/5226781.pdf ',
+    },
+    {
+      referencia:
+        'Gavilán, C. (2009).<em> El documento y sus clases análisis documental: indización y resumen. <em>Temas de Biblioteconomía.   ',
+      link: 'http://eprints.rclis.org/14605/1/tipdoc.pdf  ',
+    },
+    {
+      referencia:
+        'Nápoles, L., Moreno. M., Arteta Y., Steffanell, I y Tapia, I (2021).<em> ¿Cómo Documentar un Sistema de Gestión de la Calidad según ISO 9001Œ? Universidad Libre.<em> ',
+      link:
+        'https://www-virtualpro-co.bdigital.sena.edu.co/biblioteca/-como-documentar-un-sistema-de-gestion-de-la-calidad-segun-iso-9001-  ',
+    },
+    {
+      referencia:
+        'Sagredo, F. y Arroyo, J. (1982). Análisis formal de las definiciones de documentación. Boletín Millares Carlo 6. p. 239-88. Web.  ',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=1466182 ',
     },
   ],
   creditos: {
