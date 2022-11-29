@@ -112,7 +112,7 @@
                     | Ejemplo de bitácora
                 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 2 - Ejemplo de bitácora.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download        
 
@@ -122,10 +122,12 @@
     #t_2_2.titulo-segundo.color-acento-contenido.mt-2
       h2 2.2   Informe ejecutivo
 
+    
     p Antes de conocer los aspectos característicos del informe ejecutivo, es importante tener claro el concepto
-
+    
     
     .row.justify-content-around.align-items-centerrd.mt-5
+      hr.editlinea.text-center
       .col-8
         .row
             .col-lg-12.mb-5.mb-lg-0
@@ -206,7 +208,7 @@
                     |   Ejemplo de informe ejecutivo
                 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 3 - Ejemplo de informe ejecutivo.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download    
 
@@ -337,7 +339,7 @@
                     | Estructura del informe técnico
                 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 4 - Estructura del informe técnico.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download      
     .row.justify-content-around.align-items-centerrd.mt-5
