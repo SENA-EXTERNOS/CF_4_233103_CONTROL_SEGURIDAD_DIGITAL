@@ -35,11 +35,15 @@
 
               .col-md-7.mb-4.mb-md-0           
           
+                                    
                   .bloque-texto-c.color-blanco.p-4
-                      h3 Para López (2015) la documentación es:
-                      i.fas.fa-quote-left
-                      p.mb-0 Una ciencia que se ocupa de los documentos, esto es, de los vehículos sobre los que se transmiten las ciencias, por lo que se dota al saber documental de un carácter instrumental como ciencia para la ciencia. De ahí que la construcción de la noción de Documentación se basa en la ejecución de un proceso con una fuerte carga informativa, lo que lleva a la disciplina a participar del espectro de las ciencias informativas, es decir, de aquellas que tienen como objeto de estudio un proceso informativo en que se dan los elementos habituales de sujeto emisor, medio, mensaje y sujeto receptor (p. 129).
+                    b.titulo-tercero.text-center Para López (2015) la documentación es:
+                    .bloque-texto-b.blanco
+                      .bloque-texto-b__texto.mt-2
+                        i.fas.fa-quote-left
+                        p Una ciencia que se ocupa de los documentos, esto es, de los vehículos sobre los que se transmiten las ciencias, por lo que se dota al saber documental de un carácter instrumental como ciencia para la ciencia. De ahí que la construcción de la noción de Documentación se basa en la ejecución de un proceso con una fuerte carga informativa, lo que lleva a la disciplina a participar del espectro de las ciencias informativas, es decir, de aquellas que tienen como objeto de estudio un proceso informativo en que se dan los elementos habituales de sujeto emisor, medio, mensaje y sujeto receptor (p. 129).
                         i.fas.fa-quote-right
+
 
                   
             .row.justify-content-center.align-items-center.my-lg-4
@@ -48,18 +52,24 @@
                   img(src='@/assets/curso/temas/tema1/slider2.png', alt='Texto que describa la imagen')
                   
 
-              .col-md-7.mb-4.mb-md-0           
-          
-                  .bloque-texto-c.color-blanco.p-4
-                    h3 La norma UNE (Norma de Estandarización Española) 50/113 ofrece dos definiciones del concepto de documentación. La primera es:
-                    i.fas.fa-quote-left
-                    p.mb-2 Recogida, tratamiento de información registrada de forma continua y sistemática y que permita su almacenamiento, recuperación, utilización y transmisión.
-                    i.fas.fa-quote-right
+              .col-md-7.mb-4.mb-md-0 
 
-                    h3 La segunda la define como:
-                    i.fas.fa-quote-left.mt-2
-                    p.mb-2 El conjunto de documentos reunidos para un fin determinado.
-                    i.fas.fa-quote-right
+                .bloque-texto-c.color-blanco.p-4
+                  b.titulo-tercero.text-center La norma UNE (Norma de Estandarización Española) 50/113 ofrece dos definiciones del concepto de documentación. La primera es:
+                  .bloque-texto-b.blanco
+                    .bloque-texto-b__texto.mt-2
+                      i.fas.fa-quote-left
+                      p Recogida, tratamiento de información registrada de forma continua y sistemática y que permita su almacenamiento, recuperación, utilización y transmisión.
+                      i.fas.fa-quote-right
+
+                  
+
+                  b.titulo-tercero.text-center.mt-3 La segunda la define como:
+                  .bloque-texto-b.blanco
+                    .bloque-texto-b__texto
+                      i.fas.fa-quote-left
+                      p El conjunto de documentos reunidos para un fin determinado.
+                      i.fas.fa-quote-right
 
             .row.justify-content-center.align-items-center.my-lg-4
               .col-md-2
@@ -67,13 +77,17 @@
                   img(src='@/assets/curso/temas/tema1/slider3.png', alt='Texto que describa la imagen')
                   
 
-              .col-md-7.mb-4.mb-md-0           
+              .col-md-7.mb-4.mb-md-0      
           
+                
+                  
                   .bloque-texto-c.color-blanco.p-4
-                    h3 Gavilán (2009), define: 
-                    i.fas.fa-quote-left
-                    p.mb-2 Es posible identificar como documento todo aquel soporte donde se represente algún tipo de información. En este sentido, podemos incluir bajo el concepto de documento una hoja de papel escrito, un libro, una fotografía, una cinta de video, un DVD, un archivo creado con un procesador de textos, una base de datos o una página web (pp. 2-3).
-                    i.fas.fa-quote-right
+                    b.titulo-tercero.text-center Gavilán (2009), define: 
+                    .bloque-texto-b.blanco
+                      .bloque-texto-b__texto.mt-2
+                        i.fas.fa-quote-left
+                        p  Es posible identificar como documento todo aquel soporte donde se represente algún tipo de información. En este sentido, podemos incluir bajo el concepto de documento una hoja de papel escrito, un libro, una fotografía, una cinta de video, un DVD, un archivo creado con un procesador de textos, una base de datos o una página web (pp. 2-3).
+                        i.fas.fa-quote-right
 
     .row.mt-2.justify-content-center.mt-5
       .col-lg-12
@@ -92,7 +106,7 @@
     #t_1_1
 
     .titulo-segundo.color-acento-contenido
-      h2 1.1  Parámetros para recolección de la información:
+      h2 1.1  Parámetros para recolección de la información
     
     .row.justify-content-center
       .col-lg-9
@@ -115,18 +129,20 @@
           .row
             .col-md-6.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema1/img4.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img4.svg', alt='Texto que describa la imagen')
                 
             .col-md-6
               h4 Modo de recolección
-              p La información puede obtenerse de diversas fuentes según sea el caso. Existen diferentes técnicas y métodos para su recolección, desde interacciones orales como la entrevista, hasta conversaciones menos formales, reportes automáticos generados por algún tipo de software, medios de comunicación, y en algunos casos, redes sociales.
+              p La información puede obtenerse de diversas fuentes según sea el caso. Existen diferentes técnicas y métodos para su recolección, desde interacciones orales como la entrevista, hasta conversaciones menos formales, reportes automáticos generados por algún tipo de 
+                i software, 
+                |medios de comunicación, y en algunos casos, redes sociales.
               p.mt-2 En el contexto empresarial, es importante prestar mayor atención a las fuentes de información. Se recomienda en todos los casos recopilar de manera escrita, sea en medio físico o digital, los datos que se consideren importantes y necesarios,  registrar cada detalle y verificar con la fuente, asegurando que la información sea veraz para ser utilizada en la elaboración del informe correspondiente.
 
         .py-3.py-md-4(titulo="Formato de almacenamiento y presentación:")
           .row
             .col-md-6.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema1/img5.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img5.svg', alt='Texto que describa la imagen')
                 
             .col-md-6
               h4 Formato de almacenamiento y presentación:
@@ -138,7 +154,7 @@
           .row
             .col-md-6.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema1/img6.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen')
                 
             .col-md-6
               h4 Pertinencia y relevancia
@@ -150,7 +166,7 @@
           .row
             .col-md-6.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema1/img7.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img7.svg', alt='Texto que describa la imagen')
                 
             .col-md-6
               h4 Calidad y confiabilidad
@@ -168,7 +184,7 @@
     #t_1_2
 
     .titulo-segundo.color-acento-contenido.mt-3
-      h2 1.2	Técnicas para la documentación:
+      h2 1.2	Técnicas para la documentación
 
     .row.justify-content-around.align-items-center
       .col-11
@@ -200,7 +216,7 @@
         .col-md-4
           figure
             img(src='@/assets/curso/temas/tema1/acor2.png', alt='Texto que describa la imagen')
-
+      
       .row(titulo="¿Qué costos, recursos y herramientas serán necesarios para obtener, conservar y registrar los datos? ")        
         .col-md-7.mb-4.mb-md-0
           p Analizar los costos monetarios de materiales, recursos y tiempo que consumirá la obtención y procesamiento de esa información. En algunos casos el mencionado costo podría ser alto para la relevancia o necesidad de la información que se obtendría, por lo que se debe evaluar su conveniencia.
@@ -211,7 +227,6 @@
 
     p.mt-5 Algunas de las técnicas para gestionar la documentación de forma correcta. 
     b.mt-5 Control y manejo de versiones
-    p.mt-5 Para identificar qué datos se deben incluir en la documentación, se recomienda considerar las siguientes tres preguntas:
     
 
      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5
@@ -349,6 +364,7 @@
             p.mt-2 Lo ideal en este punto es que se revisen y conozcan las políticas de la empresa en cuanto a:
             p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>  Confidencialidad.
             p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>  Formatos de presentación.
+            p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>  Uso de la imagen.
             p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>  Logos corporativos.
             p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>  Propiedad intelectual.
             p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>  Seguimiento.
@@ -376,10 +392,10 @@
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/ptocaliente.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/ptocaliente.svg', alt='Texto que describa la imagen')
               
 
-          .tarjeta.color-secundario.p-3(x="33.5%" y="36%" numero="1")
+          .tarjeta.color-secundario.text-white.p-3(x="33.5%" y="36%" numero="1")
             .h5.mb-2 Antes
             p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>  Definición de objetivos de la documentación.
             p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>  Definición de variables y objetos a documentar.
@@ -425,7 +441,7 @@
             .bloque-texto-b__texto
               i.fas.fa-quote-left
               p.mb-0 Una ficha técnica es un tipo de documento que nos expone las características principales de algo, sea cual sea el objeto. El tipo de ficha técnica y la información que en ella se encuentre dependerá mucho de la finalidad de la misma. Lo importante a considerar es que toda ficha técnica posee propiedades distintivas y características técnicas del objeto. Podemos encontrar fichas de medicamentos, productos químicos, aparatos, alimentos, etcétera (párr. 3)
-              b.edit3  The graphic designer
+              b.edit3  Berdejo (2020)
               i.fas.fa-quote-right
 
 
@@ -445,7 +461,7 @@
 
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mt-5
       .bloque-texto-g__img.img2(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img13.png')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img13.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Para facilitar el análisis de las fichas técnicas, estas se pueden clasificar en dos grandes categorías 
@@ -491,7 +507,7 @@
               img(src="@/assets/curso/temas/tema1/img30.png", alt="alt")
           .crd_hover_txt--body
             h4.textedit5.text-center Datos de fabricación:
-            p.mb-0 Fabricante, versión y licencia de uso                                                                                    
+            p.mb-0 Fabricante, versión y licencia de uso.                                                                                    
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -499,7 +515,8 @@
             figure
               img(src="@/assets/curso/temas/tema1/img31.png", alt="alt")
           .crd_hover_txt--body
-            h4 Compatibilidades de software:
+            h4 Compatibilidades de 
+              i software:
             p.mb-0 2 Compatibilidad a nivel de 
               i software 
               | y sistema operativo.
@@ -511,7 +528,8 @@
             figure
               img(src="@/assets/curso/temas/tema1/img32.png", alt="alt")
           .crd_hover_txt--body
-            h4 Compatibilidad de hardware:
+            h4 Compatibilidad de 
+              i hardware:
             p.mb-0 En las especificaciones se deberá tener como mínimo las recomendaciones para correr y asegurar el funcionamiento del programa. Por ejemplo, la capacidad de memoria RAM y ROM necesarias, procesador, etcétera. 
 
 
@@ -651,6 +669,7 @@
         p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i> Informes de páginas visitadas y tráfico de la red.
         p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i> Informes relacionados con la capacidad de almacenamiento.
         p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i> Listado de actualizaciones o parches disponibles e instalados.
+        p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i> Alertas de amenazas, violaciones o intentos fraudulentos para acceder al sistema, cuentas o a la red.
         p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i> Listado de eventos, cambios y modificaciones en el sistema.
         p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i> Violación e ingreso erróneo de contraseñas.
         p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i> Listado de dispositivos conectados y apertura simultánea de cuentas. 

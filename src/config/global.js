@@ -69,7 +69,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.5',
             titulo:
-              'Importación de reportes e información desde el software de gestión y seguridad.',
+              'Importación de reportes e información desde el <em>software</em> de gestión y seguridad.',
             hash: 't_1_5',
           },
         ],
@@ -161,7 +161,7 @@ export default {
     },
     {
       tema: 'Bitácora',
-      referencia: 'Milformatos. (2022). Bitácora. ',
+      referencia: 'Milformatos. (2022). <em>Bitácora.</em> ',
       tipo: 'Página web',
       link: 'https://milformatos.com/empresas-y-negocios/bitacora/ ',
     },
@@ -251,13 +251,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Berdejo, P. (2020).<em> Cómo diseñar correctamente fichas técnicas de un producto. <em> Integratecnologia.',
+        'Berdejo, P. (2020).<em> Cómo diseñar correctamente fichas técnicas de un producto. </em> Integratecnologia.',
       link:
         'https://www.integratecnologia.es/la-innovacion-necesaria/como-disenar-correctamente-fichas-tecnicas-de-producto/ ',
     },
     {
       referencia:
-        'Blasco, R. (2022).<em> Cómo hacer una bitácora de trabajo.<em> Unprofesor. ',
+        'Blasco, R. (2022).<em> Cómo hacer una bitácora de trabajo.</em> Unprofesor. ',
       link:
         'https://www.unprofesor.com/consejos-para-estudiar/como-hacer-una-bitacora-de-trabajo-5448.html  ',
     },
@@ -268,38 +268,38 @@ export default {
         'https://economipedia.com/definiciones/informe-ejecutivo.html#:~:text=Un%20informe%20ejecutivo%2C%20o%20resumen,del%20proyecto%20o%20la%20compa%C3%B1%C3%ADa',
     },
     {
-      referencia: 'Coll, F. (2020). <em>Informe técnico. Economipedia <em> ',
+      referencia: 'Coll, F. (2020). <em>Informe técnico.</em> Economipedia  ',
       link: 'https://economipedia.com/definiciones/informe-tecnico.html',
     },
     {
       referencia:
-        'Comisión económica para América latina y el caribe, CEPAL. (2022).<em> Gestión de datos de investigación. <em> Módulo 3. Gestión de datos ',
+        'Comisión económica para América latina y el caribe, CEPAL. (2022).<em> Gestión de datos de investigación. </em> Módulo 3. Gestión de datos ',
       link: 'https://biblioguias.cepal.org/c.php?g=495473&p=3390849 ',
     },
     {
       referencia:
-        'Equipo Editorial (1991). <em> Documentación e información. Vocabulario.<em> Parte 1. Conceptos fundamentales. PNE 50-113/1ISO 5127/1 1983.<em> Revista Española De Documentación Científica, <em> 14(3), pp. 340-358. ',
-      link: 'https://biblioguias.cepal.org/c.php?g=495473&p=3390849 ',
+        'Equipo Editorial (1991). Documentación e información. Vocabulario. Parte 1. Conceptos fundamentales. PNE 50-113/1ISO 5127/1 1983. <em>Revista Española De Documentación Científica, </em> 14(3), pp. 340-358. ',
+      link: 'https://redc.revistas.csic.es/index.php/redc/article/view/1219',
     },
     {
       referencia:
-        'López, J. (2015). <em> La información en el origen y desarrollo de la documentación. <em> ',
+        'López, J. (2015). <em>La información en el origen y desarrollo de la documentación.</em>  ',
       link: 'https://dialnet.unirioja.es/descarga/articulo/5226781.pdf ',
     },
     {
       referencia:
-        'Gavilán, C. (2009).<em> El documento y sus clases análisis documental: indización y resumen. <em>Temas de Biblioteconomía.   ',
+        'Gavilán, C. (2009). <em>El documento y sus clases análisis documental: indización y resumen. </em>Temas de Biblioteconomía.   ',
       link: 'http://eprints.rclis.org/14605/1/tipdoc.pdf  ',
     },
     {
       referencia:
-        'Nápoles, L., Moreno. M., Arteta Y., Steffanell, I y Tapia, I (2021).<em> ¿Cómo Documentar un Sistema de Gestión de la Calidad según ISO 9001Œ? Universidad Libre.<em> ',
+        'Nápoles, L., Moreno. M., Arteta Y., Steffanell, I y Tapia, I (2021).<em> ¿Cómo Documentar un Sistema de Gestión de la Calidad según ISO 9001Œ? </em> Universidad Libre. ',
       link:
         'https://www-virtualpro-co.bdigital.sena.edu.co/biblioteca/-como-documentar-un-sistema-de-gestion-de-la-calidad-segun-iso-9001-  ',
     },
     {
       referencia:
-        'Sagredo, F. y Arroyo, J. (1982). Análisis formal de las definiciones de documentación. Boletín Millares Carlo 6. p. 239-88. Web.  ',
+        'Sagredo, F. y Arroyo, J. (1982).<em> Análisis formal de las definiciones de documentación.</em> Boletín Millares Carlo 6. p. 239-88. Web.  ',
       link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=1466182 ',
     },
   ],

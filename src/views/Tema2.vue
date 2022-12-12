@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Elaboración de reportes
 
     .row.justify-content-center
       .col-lg-8
@@ -69,26 +69,26 @@
         ImagenInfografica.color-acento-botones.mt-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema2/img3.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img3.svg', alt='Texto que describa la imagen')
               
 
-          .tarjeta.color-secundario.p-3(x="17%" y="30%" numero="1")
+          .tarjeta.color-secundario.p-3(x="17%" y="29%" numero="1")
             .h5.mb-2 Encabezado 
             p Nombre del proceso, equipo, dependencia, información y logo de la empresa.
 
-          .tarjeta.color-secundario.p-3(x="30%" y="16%" numero="2")
+          .tarjeta.color-secundario.p-3(x="29%" y="13%" numero="2")
             .h5.mb-2 Fecha
             p Fecha hora y ubicación.
 
-          .tarjeta.color-secundario.p-3(x="58%" y="16%" numero="3")
+          .tarjeta.color-secundario.p-3(x="57%" y="12%" numero="3")
             .h5.mb-2 Datos
             p Datos del encargado de diligenciar la bitácora, nombre, identificación interna y cargo.
 
-          .tarjeta.color-secundario.p-3(x="71%" y="19%" numero="4")
+          .tarjeta.color-secundario.p-3(x="74%" y="19%" numero="4")
             .h5.mb-2 Contenido
             p Dispuesto en filas con espacio para indicar la hora exacta y describir el suceso. Espacio para mencionar su escalamiento, y si es el caso, datos de a quién se ha escalado.
 
-          .tarjeta.color-secundario.p-3(x="85%" y="40%" numero="5")
+          .tarjeta.color-secundario.p-3(x="83%" y="39%" numero="5")
             .h5.mb-2 Firma
             p Espacio para firmas de entrega y recibido.
 
@@ -123,7 +123,7 @@
       h2 2.2   Informe ejecutivo
 
     
-    p Antes de conocer los aspectos característicos del informe ejecutivo, es importante tener claro el concepto
+    p Antes de conocer los aspectos característicos del informe ejecutivo, es importante tener claro el concepto.
     
     
     .row.justify-content-around.align-items-centerrd.mt-5
@@ -227,7 +227,7 @@
               
                  
               .bloque-texto-b.color-gris.p-3
-                b.text-center Coll (2021) define al informe ejecutivo como:
+                b.text-center Coll (2020), indica que un informe técnico consiste en 
                 .bloque-texto-b__texto
                   
                   i.fas.fa-quote-left
@@ -254,8 +254,8 @@
         .col-lg-4.mb-5.mb-lg-0          
           .bloque-texto-b.color-cajon.p-4
             .bloque-texto-b__texto
-              p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>
-                p Reportar una situación de naturaleza técnica. El vocabulario usado, la terminología y el nivel de conocimiento del tema en específico, hace que sea un tipo de documento ideal solo para quienes conocen de este, ya que algunas temáticas podrían ser malinterpretadas o confundir a las personas; por lo tanto, quien lo elabora debe ser conocedor de la temática.
+              p <i class="fas fa-angle-right" STYLE="Color: #FC502D" ></i>
+              p Reportar una situación de naturaleza técnica. El vocabulario usado, la terminología y el nivel de conocimiento del tema en específico, hace que sea un tipo de documento ideal solo para quienes conocen de este, ya que algunas temáticas podrían ser malinterpretadas o confundir a las personas; por lo tanto, quien lo elabora debe ser conocedor de la temática.
               
     
           
@@ -275,9 +275,9 @@
         ImagenInfograficaB.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema2/img6.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img6.svg', alt='Texto que describa la imagen')
               
-          div(x="6%" y="40%" tooltip="Ver más" numero="1")
+          div(x="5%" y="40%" tooltip="Ver más" numero="1")
             .row
               .col-lg-6 
                 h5 Introducción
@@ -288,7 +288,7 @@
               
 
 
-          div(x="6%" y="60%" tooltip="Ver más" numero="2")
+          div(x="95%" y="40%" tooltip="Ver más" numero="2")
             .row
               .col-lg-6 
                 h5 Desarrollo técnico
@@ -299,7 +299,7 @@
                 figure
                  img(src='@/assets/curso/temas/tema2/img8.png', alt='Texto que describa la imagen')
               
-          div(x="94%" y="40%" tooltip="Ver más" numero="3")
+          div(x="5%" y="60%" tooltip="Ver más" numero="3")
             .row
               .col-lg-6 
                 h5 Conclusiones y recomendaciones
@@ -310,7 +310,7 @@
                 figure
                  img(src='@/assets/curso/temas/tema2/img9.png', alt='Texto que describa la imagen')
 
-          div(x="94%" y="60%" tooltip="Ver más" numero="4")
+          div(x="95%" y="61%" tooltip="Ver más" numero="4")
             .row
               .col-lg-6 
                 h5 Bibliografía y referencias
@@ -353,13 +353,13 @@
 
     .row.mt-4 Por último, se mencionan una serie de aspectos importantes al momento de cumplir el ciclo de vida del documento o informe:
     
-    .tarjeta.tarjeta--gris.p-4.mt-5
+    .tarjeta.tarjeta--gris-claro.p-4.mt-5
       LineaTiempoC.color-acento-contenido(text-small)
         .row(titulo="Conducto regular").justify-content-around.align-items-centerrd
 
           .col-md-3
             figure
-              img(src='@/assets/curso/temas/tema2/slider1.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/slider1.svg', alt='Texto que describa la imagen')
               
           .col-md-5.mb-4.mb-md-0
             p Al ser parte de una compañía, siempre existirá una línea de mando. En general, los informes siempre se realizan desde un nivel inferior de responsabilidad en la empresa, hacia un nivel superior, llamado: relación empleado-supervisor, a menos que se especifique lo contrario.
@@ -369,7 +369,7 @@
         .row(titulo="Escalamiento").justify-content-around.align-items-centerrd
           .col-md-3
             figure
-              img(src='@/assets/curso/temas/tema2/slider2.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/slider2.svg', alt='Texto que describa la imagen')
               
           .col-md-5.mb-4.mb-md-0
             p Se entiende como la acción de trasladar una solicitud o recomendación a un nivel de dependencia diferente dentro de la empresa. Es muy probable que para documentar cierto incidente o actividad, sea necesaria la ayuda de otra persona,  algún tipo de recurso que, dentro de los hallazgos expuestos en el informe, requieran de una acción correctiva y preventiva para eludir cualquier tipo de inconveniente.
@@ -377,7 +377,7 @@
         .row(titulo="Trazabilidad").justify-content-around.align-items-centerrd
           .col-md-3
             figure
-              img(src='@/assets/curso/temas/tema2/slider3.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/slider3.svg', alt='Texto que describa la imagen')
               
           .col-md-5.mb-4.mb-md-0
             p Es importante que se pueda hacer seguimiento a las recomendaciones, solicitudes o conclusiones expresadas en el informe. En la mayoría de los casos, y en especial en el ámbito de la seguridad digital, estas hacen referencia a acciones correctivas o preventivas.
@@ -385,7 +385,7 @@
         .row(titulo="Retroalimentación").justify-content-around.align-items-centerrd
           .col-md-3
             figure
-              img(src='@/assets/curso/temas/tema2/slider4.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/slider4.svg', alt='Texto que describa la imagen')
               
           .col-md-5.mb-4.mb-md-0
             p Es importante, además, prestar atención a los comentarios y respuestas de quienes reciben, con el ánimo de corregir, mejorar o solucionar dudas respecto a la información presentada.
@@ -393,7 +393,7 @@
         .row(titulo="Formalidad").justify-content-around.align-items-centerrd
           .col-md-3
             figure
-              img(src='@/assets/curso/temas/tema2/slider5.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/slider5.svg', alt='Texto que describa la imagen')
               
           .col-md-5.mb-4.mb-md-0
             p Para finalizar, se hace énfasis en los canales de comunicación determinados por la empresa, así como los recursos y herramientas que esta proporciona.
