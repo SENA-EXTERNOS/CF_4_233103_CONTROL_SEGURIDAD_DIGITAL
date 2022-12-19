@@ -115,11 +115,13 @@
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 2 - Ejemplo de bitácora.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download        
-
-
+      
       separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido.mt-2
+    p A continuación, se presenta el informe ejecutivo, definición y características.
+
+
+    #t_2_2.titulo-segundo.color-acento-contenido.mt-5
       h2 2.2   Informe ejecutivo
 
     
@@ -214,8 +216,9 @@
 
 
       separador
+    p Se continuará con el último tipo de informe, el técnico. 
 
-    #t_2_3.titulo-segundo.color-acento-contenido
+    #t_2_3.titulo-segundo.color-acento-contenido.mt-5
       h2 2.3  Informe técnico
 
     .row.justify-content-center.mt-5
