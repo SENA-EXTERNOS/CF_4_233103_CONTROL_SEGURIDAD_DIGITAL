@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p En el siguiente mapa conceptual, se encuentra un resumen gráfico que evidencia la relación entre los principales conceptos vinculados a la elaboración de informes y documentación tratados en este material:
+    p El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

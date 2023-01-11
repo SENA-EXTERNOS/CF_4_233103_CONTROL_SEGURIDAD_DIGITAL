@@ -3,22 +3,24 @@
   BannerInterno(icono="fas fa-tasks" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-segundo.color-acento-contenido
-          h2 Arrastrar y soltar
+          h2 Documentación aplicada a la seguridad digital
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/falso-verdadero-.svg", alt="Texto que describa la imagen")
       .col-5.col-md-8.col-lg-9
         
-        p.mb-4 #[b Objetivo] En la presente actividad, deberá relacionar cada uno de los enunciados o definiciones con su respectivo concepto. Tenga presente revisar antes el contenido formativo y esté atento a la retroalimentación para cada una de sus respuestas.
+        p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
+        p De acuerdo con la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
+ 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Arrastrar y soltar
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
+              a.boton.boton--b.fnd-1(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 

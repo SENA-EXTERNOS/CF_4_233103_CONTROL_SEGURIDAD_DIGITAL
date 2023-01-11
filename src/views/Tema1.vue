@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Documentación
+      h1 Documentación técnica
 
     .row.justify-content-center
       .col-lg-8
@@ -15,11 +15,11 @@
               figure
                 img(src='@/assets/curso/temas/tema1/tema1.png' width='105px' height='106px' )  
             .col-lg-10
-              p.edit Para iniciar el estudio sobre la documentación, es importante empezar revisando algunas definiciones sobre los términos documento, documentar y documentación, desde la perspectiva de diferentes autores.
+              p.edit Para iniciar el estudio sobre la documentación, es importante comenzar revisando las definiciones y los conceptos generales sobre los documentos, realizar el ejercicio de documentar y recopilar, de manera general, cómo se compone la documentación y sus formas de aplicación y desarrollo.
 
       .row.mt-2.justify-content-center.mt-5
       .col-lg-11
-        b.mt-5  Algunas definiciones compartidas por algunos autores:
+        b.mt-5  Seguidamente, encontramos algunas definiciones de documentación, compartidas por autores reconocidos.
 
 
     .row.mt-2.justify-content-center
@@ -89,7 +89,7 @@
                         p  Es posible identificar como documento todo aquel soporte donde se represente algún tipo de información. En este sentido, podemos incluir bajo el concepto de documento una hoja de papel escrito, un libro, una fotografía, una cinta de video, un DVD, un archivo creado con un procesador de textos, una base de datos o una página web (pp. 2-3).
                         i.fas.fa-quote-right
 
-    .row.mt-2.justify-content-center.mt-5
+    .row.mt-2.justify-content-center.mt-5.mb-5
       .col-lg-12
         .bloque-texto-g.color-secundario.tarjetaimgcar.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img.carimg(
@@ -99,14 +99,11 @@
             .col-10.col-lg-12
               p Por lo tanto, se define a un documento como todo material escrito o grabado en algún tipo de medio físico o digital, el cual posee una serie de datos ordenados y con sentido, que tiene como propósito conservar y transmitir algún tipo de conocimiento.
               p.mt-2 Se define la documentación como el conjunto de documentos que se complementan entre sí para suministrar de manera sólida algún tipo de información. La acción de documentar es el proceso mediante el cual se registra la información y se organiza, de manera que se generen uno o más documentos.
-              p.mt-2 Se describen los parámetros para la recolección de la información.
+              
 
-    separador
-      
-    #t_1_1
 
-    .titulo-segundo.color-acento-contenido
-      h2 1.1  Parámetros para recolección de la información
+
+    h3 Parámetros para la recolección de la información
     
     .row.justify-content-center
       .col-lg-9
@@ -118,10 +115,10 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img3.png' ) 
     .row.mt-5
-    b.mt-5 Se define cada uno de los parámetros que se deben tener en cuenta para recolectar información. 
+    b.mt-5 Conozca, en detalle, algunos de los parámetros fundamentales para recolectar información.
     
 
-    .row.mt-3
+    .row.mt-3.mb-5 
       .col-lg-10
       TabsC.color-acento-botones
         
@@ -138,7 +135,7 @@
                 |medios de comunicación, y en algunos casos, redes sociales.
               p.mt-2 En el contexto empresarial, es importante prestar mayor atención a las fuentes de información. Se recomienda en todos los casos recopilar de manera escrita, sea en medio físico o digital, los datos que se consideren importantes y necesarios,  registrar cada detalle y verificar con la fuente, asegurando que la información sea veraz para ser utilizada en la elaboración del informe correspondiente.
 
-        .py-3.py-md-4(titulo="Formato de almacenamiento y presentación:")
+        .py-3.py-md-4(titulo="Formato de almacenamiento y presentación")
           .row
             .col-md-6.mb-4.mb-md-0
               figure
@@ -146,8 +143,9 @@
                 
             .col-md-6
               h4 Formato de almacenamiento y presentación:
-              p Como se mencionó en el punto anterior, se recomienda recolectar la información de manera que pueda ser conservada, según sea el caso, sobre papel o en medio digital; esta última opción podría reducir el tiempo en la elaboración del informe. En muchos casos, el registro fotográfico o cualquier otro tipo de material multimedia puede ser útil como evidencia de los detalles anotados.
-              p.mt-2 Según las políticas de la empresa en la que se trabaje, se debe realizar copias de seguridad de toda la información recolectada, y almacenar la información utilizando la nomenclatura adecuada, en las carpetas indicadas, evitando transportar información laboral en sus dispositivos o cuentas personales, usando siempre los medios y recursos oficiales de la empresa.
+              p.mb-2 Es clave recolectar la información de manera que pueda ser conservada, según sea el caso, en papel o a través de un medio digital; esta última opción podría reducir el tiempo en la elaboración del informe. En muchos casos, el registro fotográfico o cualquier otro tipo de material multimedia, puede ser útil como evidencia de los detalles anotados.
+              p Según las políticas de cada empresa, se deben realizar copias de seguridad de toda la información recolectada, y almacenar esta información, utilizando la nomenclatura correcta, en las carpetas indicadas, evitando transportar información laboral en dispositivos o cuentas personales, utilizando siempre los medios y recursos oficiales de la organización.
+
 
 
         .py-3.py-md-4(titulo="Pertinencia y relevancia")
@@ -170,37 +168,24 @@
                 
             .col-md-6
               h4 Calidad y confiabilidad
-              p La información puede provenir de muchas fuentes. Dependiendo del contexto, esta puede provenir de páginas de Internet, libros, artículos,  conceptos, respuestas propias u otras personas. En cualquiera de los casos toda información debe ser revisada, obedecer al razonamiento lógico, a las condiciones técnicas, operativas, ambientales y demás que componen el contexto en el que se ha generado. Es necesario que esta sea respaldada por otras fuentes de carácter oficial, y que sean verificables, evitando basar los reportes en opiniones o conceptos que no vengan de expertos o de páginas con contenidos informales.
+              p La información puede proceder de muchas fuentes. Dependiendo del contexto, la información proviene de páginas de Internet, libros, artículos, conceptos, respuestas propias, o de otras personas. 
+              p En cualquiera de los casos, toda información debe ser revisada, obedecer al razonamiento lógico, a las condiciones técnicas, operativas, ambientales y demás, que componen el contexto en el que se ha generado. Es necesario que sea respaldada por otras fuentes de carácter oficial y que sean verificables, evitando basar los reportes, en opiniones o conceptos que no vengan de expertos o de páginas con contenidos informales.
 
-    .row.justify-content-center.mt-5
-      .col-lg-8
-        .bloque-texto.cajon.box3tem1.p-3
-          .row            
-            .col-lg-11
-              p.edit2.text-white Luego de conocer los parámetros a tener en cuenta en la recolección de información, es necesario conocer las técnicas para realizar la documentación con la información recolectada.
 
-    separador      
 
-    #t_1_2
+    h3 Técnicas para la documentación
 
-    .titulo-segundo.color-acento-contenido.mt-3
-      h2 1.2	Técnicas para la documentación
+    .row.justify-content-around.align-items-center.mb-5         
+      .col-lg-8.col-sm-10
+        p Se refiere a los elementos y procedimientos que se deben tener en cuenta en el momento de realizar la documentación de un determinado proceso. Los siguientes parámetros pueden ser aplicables a la documentación, para elaborar informes, investigaciones y registros de incidentes, relacionados con la seguridad digital.
+      .col-lg-4
+          figure
+            img(src='@/assets/curso/temas/tema1/img8.png', alt='Texto que describa la imagen'  )
 
-    .row.justify-content-around.align-items-center
-      .col-11
-        .row          
-          .col-lg-7.col-sm-10
-            p Elementos y procedimientos para tener en cuenta al momento de realizar la documentación de determinado proceso. Los siguientes parámetros pueden ser aplicables a la documentación para elaborar informes, investigaciones y registros de incidentes relacionados con la seguridad digital.   
-            p La presente información está basada en el material de Gestión de Datos de Investigación (GDI) de la bibliología de la CEPAL, específicamente del módulo 3.
-            p Cómo incluir la documentación a través de las respuestas a algunos interrogantes.
-          .col-lg-4
-              figure
-                img(src='@/assets/curso/temas/tema1/img8.png', alt='Texto que describa la imagen'  )
+    
+    h3 Selección de los datos por recolectar
 
-    .row.mt-4
-      b ¿Cómo seleccionar los datos que deben recolectarse?  
-
-      p.mt-4 Para identificar qué datos se deben incluir en la documentación, se recomienda considerar las siguientes tres preguntas:
+    p Para identificar qué datos se deben incluir en la documentación, se recomienda considerar las siguientes tres preguntas:
           
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--blanco")
       .row(titulo="¿Cuál es el objetivo y qué relevancia tienen los datos que se han seleccionado? ")
@@ -222,14 +207,9 @@
           p Analizar los costos monetarios de materiales, recursos y tiempo que consumirá la obtención y procesamiento de esa información. En algunos casos el mencionado costo podría ser alto para la relevancia o necesidad de la información que se obtendría, por lo que se debe evaluar su conveniencia.
         .col-md-4
           figure
-            img(src='@/assets/curso/temas/tema1/acor3.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/acor3.png', alt='Texto que describa la imagen')   
 
-
-    p.mt-5 Algunas de las técnicas para gestionar la documentación de forma correcta. 
-    b.mt-5 Control y manejo de versiones
-    
-
-     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5
       .bloque-texto-g__img.img2(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img50.png')})`}"
       )
@@ -240,10 +220,10 @@
       .col-lg-9
         .cajon.color-secundario.p-4
         
-          p En ocasiones se presentan diferentes versiones de un mismo documento, debido a actualizaciones de datos, procedimientos, diferencias en las fuentes, material complementario o a la realización de copias de respaldo correspondientes al trabajo en proceso, con el objetivo de tener puntos de control en caso de tener que realizar alguna modificación al trabajo en curso. Sea cual sea el caso, debe tener en cuenta:
+          p Existen ocasiones en las que se presentan diferentes versiones de un mismo documento, debido a las actualizaciones de datos, a los procedimientos, a diferencias en las fuentes, material complementario, o a la realización de copias de respaldo, correspondientes al trabajo en proceso, con el objetivo de tener puntos de control, si se debe realizar alguna modificación al trabajo en marcha. Sea cual sea el caso, es importante tener en cuenta lo siguiente:
 
 
-    .row.justify-content-around.align-items-center.mt-2
+    .row.justify-content-around.align-items-center.mt-2.mb-5
       .col-lg-10
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--acordeoncolor").mt-5
           .row(titulo="Versión reconocible:")
@@ -252,7 +232,7 @@
                 img(src='@/assets/curso/temas/tema1/Acordion1.png', alt='Texto que describa la imagen')
                 
             .col-md-8.mb-4.mb-md-0
-              p Es importante que cada una de las versiones sea fácilmente reconocible, y que en todo momento el encargado o su grupo de colaboradores trabajen sobre la versión correcta del informe.
+              p Cada versión debe ser fácilmente reconocible; en todo momento, el encargado o su grupo de colaboradores, deberán trabajar sobre la versión correcta del informe.
           
           .row(titulo="Buenas prácticas:")
             .col-md-2
@@ -278,10 +258,7 @@
             .col-md-8.mb-4.mb-md-0
               p A la hora de trabajar en grupo y tener que manipular diferentes versiones del mismo informe, es fundamental la comunicación y el orden en el trabajo.
 
-    .row.mt-5  
-      b Niveles de Documentación
-
-
+    h3 Niveles de Documentación
 
     .row.mt-2.justify-content-center.mt-4
       .col-lg-12
@@ -291,8 +268,8 @@
           )
           .bloque-texto-g__texto2.p-4
             .col-10.col-lg-12
-              p Al realizar labores de documentación para una investigación, un proyecto o la realización del informe, es útil clasificar el análisis de los datos y su manejo por sectores o niveles, esto puede ayudar a estructurar de una buena forma la documentación, obtener datos de calidad y llevar un mejor orden. A continuación, se presenta una división por niveles que podría ser útil:
-     
+              p Al realizar labores de documentación para una investigación, un proyecto o la realización de un informe, se debe clasificar el análisis de los datos y su manejo, por sectores o niveles; esto puede ayudar a estructurar, de una buena forma, la documentación, obtener datos de calidad y llevar un mejor orden. 
+              p La división por niveles, es una herramienta muy útil para lograr información ordenada y calificada.
      
     .row.mt-5
       .col-lg-12
@@ -301,22 +278,20 @@
             .row           
               .col-xl-10
                 
-                p Al momento de trabajar y presentar información, es indispensable identificar los objetos, ítems y las variables que conviven dentro del informe que se está realizando. Los objetos se pueden definir como todos los elementos que aportan e interfieren en el desarrollo del informe, proceso o caso de estudio que está en proceso de investigación; por ejemplo, en el área de la seguridad informática se podría clasificar como objetos a cualquier elemento del inventario. 
-                p.mt-2 Las variables son aquellos elementos que tienen la propiedad de cambiar constantemente, dependiendo de otras condiciones o eventos, por ejemplo, costos de materiales, equipos, flujo de dinero, personal y cantidad de usuarios.
+                p Se deben identificar los objetos, los ítems y las variables que conviven dentro del informe que se está realizando. Los objetos se definen como: todos los elementos que aportan e interfieren en el desarrollo del informe, proceso o caso de estudio, que está en proceso de investigación; por ejemplo, en el área de la seguridad informática, se puede clasificar como objeto, a cualquier elemento del inventario.
+                p Las variables se conocen como: aquellos elementos que tienen la propiedad de cambiar constantemente, dependiendo de otras condiciones o eventos; por ejemplo, costos de materiales, equipos, flujo de dinero, personal y cantidad de usuarios.
                   
-          .tarjeta.color-tarjetacliente.p-4(titulo="Nivel de fuentes y base de datos")          
+          .tarjeta.color-tarjetacliente.p-4(titulo="Nivel de fuentes y base<br> de datos")          
             .row                     
               .col-xl-10                
-                p Se listan las fuentes de las cuales se obtendrá la información, referencias, material de consulta, personas,  evidencias, máquinas, información técnica, entre otras; se tiene en cuenta como se citarán y se dará reconocimiento a las fuentes de consulta, colaboradores y elementos externos que aportaron a la elaboración del informe. Por temas legales relacionados con los derechos de autor, así como por ética profesional, es fundamental dar el reconocimiento y listar las fuentes que sirvieron para obtener la información.
+                p Se listan las fuentes de las cuales se obtendrá la información, referencias, material de consulta, personas, evidencias, máquinas, información técnica, entre otras; se tiene en cuenta como se citarán y se dará reconocimiento a las fuentes de consulta, colaboradores y elementos externos que aportaron a la elaboración del informe. Por temas legales relacionados con los derechos de autor, así como por ética profesional, es fundamental dar el reconocimiento y listar las fuentes que sirvieron para obtener la información.
 
-          .tarjeta.color-tarjetacliente.p-4(titulo="Nivel de recursos y procedimiento")          
+          .tarjeta.color-tarjetacliente.p-4(titulo="Nivel de recursos y<br> procedimiento")          
             .row                     
               .col-xl-10                
                 p Una vez definidas las fuentes, variables y objetos del informe, es necesario centrarse en la estructura y definir el medio en el que se realizará, el cual normalmente será digital, como por ejemplo, el procesador de texto. Hay que tener claro si la compañía tiene predefinido algún tipo de instrumento o formato para la presentación del informe, si hay una metodología y unos requisitos fijos, o si se tiene un poco de libertad en estos aspectos.
-                p.mt-2 Es importante incluir la explicación del método de trabajo, la obtención de los datos, gráficos, ilustraciones y recursos audiovisuales que no saturen el informe ni que bajen el carácter técnico y formal del mismo, pero que ayuden a resumir mejor la información para que quienes lo lean puedan entender con mayor facilidad, plantear ideas principales y hacer énfasis en las conclusiones de este.
+                p Incluir la explicación del método de trabajo, la obtención de los datos, gráficos, ilustraciones y recursos audiovisuales que no saturen el informe, y que no disminuyan el carácter técnico y formal del mismo, pero que ayuden a resumir mejor la información, para que, quienes lo lean, puedan entender con mayor facilidad, plantear las ideas principales y hacer énfasis del objetivo, en las conclusiones del informe.
 
-
-      b.mt-4 Seguridad, protección, conservación y acceso a los datos
 
     .row.mt-5
       .col-lg-4
@@ -324,7 +299,7 @@
             img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
 
       .col.lg-8
-        p Al momento de documentar, se deberán contemplar los aspectos relacionados con el después de la elaboración del documento, esto incluye:
+        p Para documentar, es necesario contemplar los aspectos relacionados con el después de la elaboración del documento; esta preparación incluye las tareas y los pasos necesarios que ayudan para que el proceso sea viable:
 
         SlyderF(columnas="col-lg-5 col-xl-4").mt-5
           .tarjeta
@@ -371,7 +346,7 @@
             p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>  Relevancia de la información.
             p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>  Tipo de información que va a presentar.
             p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>  Tener claro quiénes pueden acceder a esta información.
-            p.mt-4 Es importante tener presente el uso exclusivo de los canales de comunicación, almacenamiento de la información, documentos y reportes que se generen, además de usar solo las herramientas, como correo y chat de la empresa.
+            p.mt-4 Tener en cuenta: usar exclusivamente, los canales de comunicación, almacenamiento de la información, documentos y reportes que se generen, además de utilizar solo herramientas, como el correo y el chat de la empresa.
             
     
 
@@ -384,10 +359,9 @@
     .row.justify-content-around.align-items-center.mt-4      
       .col-lg-8
         .cajon.color-secundario.p-4
-          
-          p.text-center Para entender el ciclo de vida del proceso de la documentación, vea el siguiente diagrama. 
+          p.text-center Para comprender el ciclo de vida del proceso de la documentación, analice con atención la siguiente imagen:
 
-    .row.justify-content-around.align-items-center.mt-4      
+    .row.justify-content-around.align-items-center.mt-4.mb-5      
       .col-lg-11
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
@@ -418,18 +392,9 @@
             p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>  Control de acceso.
             p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>  Actualizaciones posteriores.
             
-    .row.justify-content-around.align-items-center.mt-5     
-      .col-lg-8
-        p.text-center Es clave comprender la utilidad de las fichas técnicas en el requerimiento de equipos y elementos de infraestructura de la red necesarios para la gestión de la documentación. 
+    h3 Fichas técnicas
 
-      separador
-
-    #t_1_3
-
-    .titulo-segundo.color-acento-contenido
-      h2 1.3	Fichas técnicas, especificaciones para equipos y elementos de la infraestructura de la red
-
-    p Para iniciar, es necesario definir el concepto de ficha técnica.
+    p Para aprender sobre esta temática, es primordial definir el concepto de ficha técnica:
 
 
      .row.justify-content-around.align-items-center.mt-4      
@@ -444,15 +409,12 @@
               b.edit3  Berdejo (2020)
               i.fas.fa-quote-right
 
-
-    b.mt-4 Concepto de ficha técnica desde la seguridad digital y las redes de datos
-
     .row.justify-content-center.mt-5
       .col-lg-9
         .bloque-texto.cajon.box2tem4.p-2
           .row             
             .col-lg-7
-              p.edittext Las fichas técnicas son los documentos donde se encontrará información de carácter técnico, referente a los recursos tecnológicos que posee la organización. Estos documentos permiten revisar la compatibilidad y capacidad de cada recurso en relación con los demás, evaluando su pertinencia y necesidad dentro de la organización, o si por el contrario, es un punto débil dentro del sistema de seguridad.
+              p.edittext Las fichas técnicas son los documentos donde se encuentra información de carácter técnico, referente a los recursos tecnológicos que posee la organización. Estos documentos permiten revisar la compatibilidad y capacidad de cada recurso, en relación con los demás, evaluando su pertinencia y necesidad dentro de la organización o si, por el contrario, es un punto débil dentro del sistema de seguridad.
             .col-lg-5
               figure
                 img(src='@/assets/curso/temas/tema1/img12.png' ) 
@@ -499,7 +461,7 @@
                 i software 
                 | aplican los mismos comentarios del hardware en cuanto a estandarización, compatibilidad y demás. Estos son algunos de los elementos que deben ser considerados en la ficha técnica.
 
-    .row.justify-content-center.mb-5.mt-5
+    .row.justify-content-center.my-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
@@ -517,7 +479,7 @@
           .crd_hover_txt--body
             h4 Compatibilidades de 
               i software:
-            p.mb-0 2 Compatibilidad a nivel de 
+            p.mb-0 Compatibilidad a nivel de 
               i software 
               | y sistema operativo.
 
@@ -544,19 +506,11 @@
               i software. 
               | Listado de funciones y aplicaciones disponibles.
 
+    br
+    h3 Elaboración de fichas
 
-      separador
-
-    #t_1_4
-
-    .titulo-segundo.color-acento-contenido
-      h2 1.4	Elaboración de fichas
-
-    .row.justify-content-center.mt-5
-      .col-lg-9
-        p Cuando sea necesaria la elaboración de las fichas técnicas, o en su defecto, un documento más corto y sencillo, dado que estos suelen ser extensos y con vocabulario técnico, se deben tener en cuenta algunos parámetros. 
-    .row.mt-2
-      b.mt-3 Para la elaboración tener en cuenta los siguientes ítems:
+    p Cuando se hace necesaria la elaboración de las fichas técnicas o, en su defecto, un documento más corto y sencillo, dado que estos suelen ser extensos y con vocabulario técnico, se deben tener en cuenta ciertos parámetros para realizar la elaboración.  
+    b Estos son algunos parámetros importantes que se deben considerar en la elaboración de las fichas:
 
     .tarjeta.bg5.p-4.mt-5
       SlyderA(tipo="b")
@@ -595,7 +549,7 @@
               img(src='@/assets/curso/temas/tema1/img40.png', alt='Texto que describa la imagen')
     
     
-    .row.justify-content-around.align-items-centerrd.mt-5
+    .row.justify-content-around.align-items-centerrd.my-5
       .col-11
         .tarjeta.color-secundario.p-3.mt-4
           .row.justify-content-around.align-items-center
@@ -604,7 +558,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-5.mb-sm-0
                   h3.mb-1 Formato de ficha técnica.
-                  p.mt-4 Para la elaboración de la ficha técnica es importante tener de referencia un formato, como el que se comparte en el siguiente documento:
+                  p.mt-4 Conozca la estructura de un formato (ejemplo) de ficha técnica y la manera en que se completa su información. 
                 
               .row  
                 .col-lg-1
@@ -613,34 +567,25 @@
 
                 .col-lg-7
                   b Anexo 1. 
-                    | Ejemplo de ficha técnica, para complementar su información.
+                    | Explore el Anexo 1 “Ejemplo de ficha técnica”.
                 
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 1 - Ejemplo de ficha técnica.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download        
 
-    separador
 
-    #t_1_5
-
-    .titulo-segundo.color-acento-contenido
-      h2 1.5	Importación de reportes e información desde el 
+    h3 Importación de reportes e información desde el 
         i software 
         | de gestión y seguridad
 
     
-    .row
+    .row.mb-5
       .col-lg-4       
         
           .bloque-texto-b.color-cajon  
             .bloque-texto-b__texto        
-              p Es útil que, al momento de gestionar información para elaborar la documentación dentro del contexto de la seguridad digital, los diferentes equipos, sistemas operativos, aplicaciones y herramientas permitan extraer información de ellas, la cual puede venir en varios formatos. La mayoría de los programas permiten exportar de manera automática los informes a texto o formatos compatibles con Excel u otros programas, lo que facilita ampliamente el desarrollo de estos.
-
-           
-    
-    
-
+              p Al gestionar información para elaborar la documentación dentro del contexto de la seguridad digital, los diferentes equipos, sistemas operativos, aplicaciones y herramientas, deben permitir la extracción de información (información que puede estar contenida en diferentes formatos). La mayoría de los programas permiten exportar, de manera automática, los informes a texto, o formatos compatibles con Excel u otros programas, lo que facilita ampliamente el desarrollo de estos.
 
       .col-lg-3
         figure
@@ -652,7 +597,7 @@
       .col-lg-10
         b En los recursos de 
           i software 
-          | que permiten acceder a reportes, encontramos los siguientes:
+          | que permiten acceder a reportes, se encuentran:
 
     .row.mt-5
       .col-lg-6

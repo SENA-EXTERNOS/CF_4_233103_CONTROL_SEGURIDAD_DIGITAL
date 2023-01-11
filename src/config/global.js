@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Documentación aplicada a la seguridad digital',
     descripcionCurso:
-      'En este recurso educativo se desarrollan dos temas importantes para la administración de la seguridad digital: aprender a extraer y comprender la información obtenida en las fichas técnicas de los activos del sistema de seguridad digital, y revisar algunas técnicas y recomendaciones para que la documentación y otro tipo de informes cumplan con los parámetros básicos de calidad.',
+      'En este componente formativo, se desarrollan dos temas importantes para el procedimiento de la administración de la seguridad digital: extraer y comprender la información obtenida en las fichas técnicas de los activos del sistema de seguridad digital, y revisar algunas técnicas y recomendaciones, para que la documentación y otra clase de informes, cumplan con los parámetros básicos de la calidad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -37,42 +37,8 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Documentación',
+        titulo: 'Documentación técnica',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Parámetros para recolección de la información.',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Técnicas para la documentación.',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo:
-              'Fichas técnicas y especificaciones para equipos y elementos de la infraestructura de la red.',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Elaboración de fichas.',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo:
-              'Importación de reportes e información desde el <em>software</em> de gestión y seguridad.',
-            hash: 't_1_5',
-          },
-        ],
       },
 
       {
@@ -81,33 +47,6 @@ export default {
         numero: '2',
         titulo: 'Elaboración de reportes',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Bitácora.',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Informe ejecutivo.',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Informe técnico.',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo:
-              'Conducto regular, escalamientos y trazabilidad de los reportes.',
-            hash: 't_2_4',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -152,41 +91,41 @@ export default {
   },
   complementario: [
     {
-      tema: 'Inventario de activos',
+      tema: 'Documentación técnica',
       referencia:
-        'Araujo A. (2021).<em> Creando un inventario de activos en 4 sencillos pasos [+Plantilla gratis]. Hackmetrix.<em> ',
+        'Araujo A. (2021). <em>Creando un inventario de activos en 4 sencillos pasos [+Plantilla gratis].</em> Hackmetrix. ',
       tipo: 'Página web.',
       link:
-        'https://blog.hackmetrix.com/inventario-de-activos-seguridad-de-la-informacion/#:~:text=Algunos%20ejemplos%20de%20activos%20de,y%20las%20de%20tu%20equipo. ',
+        'https://blog.hackmetrix.com/inventario-de-activos-seguridad-de-la-informacion/#:~:text=Algunos%20ejemplos%20de%20activos%20de,y%20las%20de%20tu%20equipo. ',
     },
     {
-      tema: 'Bitácora',
-      referencia: 'Milformatos. (2022). <em>Bitácora.</em> ',
-      tipo: 'Página web',
-      link: 'https://milformatos.com/empresas-y-negocios/bitacora/ ',
+      tema: 'Elaboración de reportes',
+      referencia: 'Milformatos. (2022). <em>Bitácora.</em>',
+      tipo: 'Página web.',
+      link: 'https://milformatos.com/empresas-y-negocios/bitacora/ ',
     },
     {
-      tema: 'Informe ejecutivo',
+      tema: 'Elaboración de reportes',
       referencia:
-        'Crehana. (2021).<em> Plantilla para reporte ejecutivo en Word.<em> ',
-      tipo: 'Página web',
+        'Crehana. (2021). <em>Plantilla para reporte ejecutivo en Word.</em>',
+      tipo: 'Página web.',
       link:
-        'https://www.crehana.com/recursos/herramientas/plantilla-reporte-ejecutivo/ ',
+        'https://www.crehana.com/recursos/herramientas/plantilla-reporte-ejecutivo/ ',
     },
     {
-      tema: 'Informe técnico',
+      tema: 'Elaboración de reportes',
       referencia:
-        'Caja de la Vivienda popular. (2019).<em> Informe técnico diagnóstico del modelo de seguridad y privacidad de la información-MSPI. <em>',
+        'Caja de la Vivienda popular. (2019). <em>Informe técnico diagnóstico del modelo de seguridad y privacidad de la información-MSPI.</em>',
       tipo:
-        'Artículo PDF descargable, lectura y ejemplo de informe técnico recomendado',
+        'Artículo PDF descargable, lectura y ejemplo de informe técnico recomendado.',
       link:
-        'https://www.cajaviviendapopular.gov.co/sites/default/files/208-TIC-Mn-11%20INFORME%20TE%CC%81CNICO%20DIAGNO%CC%81STICO%20DEL%20MSPI%20V1.pdf ',
+        'https://www.cajaviviendapopular.gov.co/sites/default/files/208-TIC-Mn-11%20INFORME%20TE%CC%81CNICO%20DIAGNO%CC%81STICO%20DEL%20MSPI%20V1.pdf ',
     },
     {
-      tema: 'Gráficos estadísticos con Excel',
+      tema: 'Elaboración de reportes',
       referencia:
-        'El tío estadístico. (2020).<em> Cómo crear gráficos estadísticos en Excel 2019 -sesión completa. [YouTube]. <em> ',
-      tipo: 'Video',
+        'El tío estadístico. (2020).<em> Cómo crear gráficos estadísticos en Excel 2019 -sesión completa </em>(video). YouTube.',
+      tipo: 'Video.',
       link:
         'https://www.youtube.com/watch?v=QXoNOpHNzKE&ab_channel=ElT%C3%ADoEstad%C3%ADstico',
     },
@@ -261,16 +200,7 @@ export default {
       link:
         'https://www.unprofesor.com/consejos-para-estudiar/como-hacer-una-bitacora-de-trabajo-5448.html  ',
     },
-    {
-      referencia:
-        'Coll, F. (2021). <em> Informe ejecutivo.<em> Economipedia.  ',
-      link:
-        'https://economipedia.com/definiciones/informe-ejecutivo.html#:~:text=Un%20informe%20ejecutivo%2C%20o%20resumen,del%20proyecto%20o%20la%20compa%C3%B1%C3%ADa',
-    },
-    {
-      referencia: 'Coll, F. (2020). <em>Informe técnico.</em> Economipedia  ',
-      link: 'https://economipedia.com/definiciones/informe-tecnico.html',
-    },
+
     {
       referencia:
         'Comisión económica para América latina y el caribe, CEPAL. (2022).<em> Gestión de datos de investigación. </em> Módulo 3. Gestión de datos ',

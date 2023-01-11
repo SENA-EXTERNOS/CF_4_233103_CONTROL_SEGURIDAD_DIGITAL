@@ -7,7 +7,7 @@
         span 2
       h1 Elaboración de reportes
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-8
         .bloque-texto.cajon.box2tem1.p-1
           .row
@@ -15,28 +15,17 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img1.png' width='105px' height='106px' )  
             .col-lg-10
-              p.edit Dentro de la documentación necesaria en la gestión de seguridad digital se encuentran diferentes reportes, los cuales contienen un determinado número de registros. En el siguiente video se detallan aspectos asociados a la elaboración de estos reportes. 
-
-    .col-lg-12.mt-5
+              p.edit Son varios y diferentes, los reportes que se encuentran dentro de la documentación necesaria en la gestión de la seguridad digital. Estos contienen una determinada cantidad de registros. 
+    p Visualice con atención el siguiente video y conozca algunos detalles generales sobre la elaboración de reportes:
+    .col-lg-12.mb-5
       figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption   VIDEO
 
-    .row.justify-content-center.mt-5
-      .col-lg-6
-        .bloque-texto.cajon.box3tem1.p-3
-          .row            
-            .col-lg-12
-              p.edit2.text-white Se revisará cada uno de los tres (3) elementos mencionados en el vídeo anterior: bitácoras, informe ejecutivo e informe técnico
-      
-      
-      separador
-    
-    #t_2_1.titulo-segundo.color-acento-contenido.mt-2
-      h2 2.1  Bitácora
+    h3 Bitácora
 
-    p Para iniciar, es importante tener claro el concepto de bitácora.
+    p ¿Qué es una bitácora? 
       
     .row.mt-5
       .col-lg-5
@@ -62,7 +51,7 @@
       .col-lg-8
         .cajon.color-secundario.p-4
           
-          p.text-center La bitácora es un recurso utilizado en varios campos de la industria, especialmente en aquellos donde se debe realizar seguimiento y revisión constante de algún elemento o sistema. En cuanto a su estructura, esta es bastante simple, lo que le permite adaptarse a un modelo como el siguiente.
+          p.text-center La bitácora es un recurso utilizado en varios campos de la industria, especialmente en aquellos donde se debe realizar seguimiento y revisión constante de algún elemento o sistema. En cuanto a su estructura, puede ser bastante simple, lo que le permite adaptarse a cualquier modelo. Explore la siguiente imagen y reconozca la estructura básica de una bitácora:
    
     .row.justify-content-around.align-items-center
       .col-lg-9
@@ -115,19 +104,8 @@
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 2 - Ejemplo de bitácora.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download        
-      
-      separador
-
-    p A continuación, se presenta el informe ejecutivo, definición y características.
-
-
-    #t_2_2.titulo-segundo.color-acento-contenido.mt-5
-      h2 2.2   Informe ejecutivo
-
-    
-    p Antes de conocer los aspectos característicos del informe ejecutivo, es importante tener claro el concepto.
-    
-    
+   
+    h3.mt-5 Informe ejecutivo
     .row.justify-content-around.align-items-centerrd.mt-5
       hr.editlinea.text-center
       .col-8
@@ -141,9 +119,9 @@
                 p Un documento escrito u oral que recoge los puntos más destacados de un informe más extenso. El fin del informe ejecutivo es resumir los aspectos más importantes de un informe de mayor extensión, facilitando su lectura a la dirección del proyecto o la compañía (párr. 1).
                 i.fas.fa-quote-right
 
-    p Se recomienda tener en cuenta los siguientes aspectos para elaborar un informe ejecutivo de manera correcta:
+    p Para la elaboración correcta de un informe ejecutivo, se recomienda tener en cuenta aspectos como los que se exponen a continuación:
 
-    .row.justify-content-around.align-items-center.mt-5
+    .row.justify-content-around.align-items-center.my-5
       .col-lg-8
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Es un anexo")
@@ -199,27 +177,24 @@
               .row.justify-content-between.align-items-center
                 .col.mb-5.mb-sm-0
                   h3.mb-1 Ejemplo de informe ejecutivo
-                  p.mt-4 Para ampliar y ver en detalle la construcción del informe ejecutivo, le invito a revisar el siguiente documento:
+                  
+
               .row  
                 .col-lg-1
                   figure
                     img(src="@/assets/curso/temas/tema1/pdf.png")
 
                 .col-lg-7
-                  b Anexo 3. 
-                    |   Ejemplo de informe ejecutivo
-                
+                  p Para ampliar y ver con detalle la construcción del informe ejecutivo, revise muy bien, el Anexo 3 - Ejemplo de informe ejecutivo.
+                  
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 3 - Ejemplo de informe ejecutivo.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download    
 
 
-      separador
-    p Se continuará con el último tipo de informe, el técnico. 
-
-    #t_2_3.titulo-segundo.color-acento-contenido.mt-5
-      h2 2.3  Informe técnico
+  
+    h3.mt-3 Informe técnico
 
     .row.justify-content-center.mt-5
       .col-lg-10
@@ -257,8 +232,11 @@
         .col-lg-4.mb-5.mb-lg-0          
           .bloque-texto-b.color-cajon.p-4
             .bloque-texto-b__texto
-              p <i class="fas fa-angle-right" STYLE="Color: #FC502D" ></i>
-              p Reportar una situación de naturaleza técnica. El vocabulario usado, la terminología y el nivel de conocimiento del tema en específico, hace que sea un tipo de documento ideal solo para quienes conocen de este, ya que algunas temáticas podrían ser malinterpretadas o confundir a las personas; por lo tanto, quien lo elabora debe ser conocedor de la temática.
+              ul.lista-ul
+                li 
+                  i.fas.fa-angle-right.na
+                  | Reportar una situación de naturaleza técnica.
+              p El vocabulario usado, la terminología y el nivel de conocimiento del tema en específico, hace que sea un tipo de documento ideal solo para quienes conocen de este, ya que algunas temáticas podrían ser malinterpretadas o confundir a las personas; por lo tanto, quien lo elabora debe ser conocedor de la temática.
               
     
           
@@ -270,9 +248,12 @@
         .col-lg-4.mb-5.mb-lg-0          
           .bloque-texto-b.color-cajon.p-4
             .bloque-texto-b__texto
-              p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i>
-                | Metodológicamente, el informe técnico debe seguir una estructura lógica que parta de la explicación del suceso. Se fundamenta en bases teóricas o evidencias reales y verificables, que idealmente puede contener estadísticas, gráficos, tablas y otros recursos que permitan visualizar la información de mejor manera.
-  
+              ul.lista-ul
+                li 
+                  i.fas.fa-angle-right.na
+                  | Estructura lógica
+              p Metodológicamente, el informe técnico debe seguir una estructura lógica que parta de la explicación del suceso. Se fundamenta en bases teóricas o evidencias reales y verificables que, idealmente, pueden contener estadísticas, gráficos, tablas y otros recursos que permitan visualizar la información de mejor manera.
+    p.mb-5 Estas son algunas características y elementos del informe técnico: 
     .row.justify-content-center.mt-5
       .col-lg-9
         ImagenInfograficaB.color-acento-botones
@@ -345,16 +326,11 @@
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 4 - Estructura del informe técnico.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download      
-    .row.justify-content-around.align-items-centerrd.mt-5
-      .col-10
-        p  Para finalizar con los aspectos relevantes en la elaboración de reportes, es necesario conocer la ruta para el escalamiento y trazabilidad de los reportes, como se explica en el siguiente tema. 
 
-      separador
+    h3.mt-5 Conducto regular, escalamientos y trazabilidad de los reportes
 
-    #t_2_4.titulo-segundo.color-acento-contenido
-      h2 2.4	Conducto regular, escalamientos y trazabilidad de los reportes
+    .row.mt-4 La trazabilidad favorece el conocimiento del origen y secuencia de un proceso, un producto, una realidad. En términos de seguridad de la información y la elaboración de reportes, permite saber cuál es el ciclo de vida de la información y los datos reportados.
 
-    .row.mt-4 Por último, se mencionan una serie de aspectos importantes al momento de cumplir el ciclo de vida del documento o informe:
     
     .tarjeta.tarjeta--gris-claro.p-4.mt-5
       LineaTiempoC.color-acento-contenido(text-small)
@@ -405,7 +381,7 @@
     .row.justify-content-around.align-items-center.mt-5   
       .col-lg-8
         .cajon.color-secundario.p-4          
-          p.text-center Se invita a explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello debe dirigirse al menú principal, en donde se encuentra la síntesis, una actividad didáctica, material complementario, entre otros.
+          p.text-center Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
 </template>
