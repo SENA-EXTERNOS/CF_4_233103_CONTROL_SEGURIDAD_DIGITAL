@@ -329,7 +329,8 @@
 
     h3.mt-5 Conducto regular, escalamientos y trazabilidad de los reportes
 
-    .row.mt-4 La trazabilidad favorece el conocimiento del origen y secuencia de un proceso, un producto, una realidad. En términos de seguridad de la información y la elaboración de reportes, permite saber cuál es el ciclo de vida de la información y los datos reportados.
+    p.mb-3 La trazabilidad favorece el conocimiento del origen y secuencia de un proceso, un producto, una realidad. En términos de seguridad de la información y la elaboración de reportes, permite saber cuál es el ciclo de vida de la información y los datos reportados.
+    p.mb-5 A continuación, se presenta una serie de aspectos importantes del ciclo de vida del documento o informe:
 
     
     .tarjeta.tarjeta--gris-claro.p-4.mt-5

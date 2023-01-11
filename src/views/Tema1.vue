@@ -19,7 +19,7 @@
 
       .row.mt-2.justify-content-center.mt-5
       .col-lg-11
-        b.mt-5  Seguidamente, encontramos algunas definiciones de documentación, compartidas por autores reconocidos.
+        p.mt-5  Seguidamente, encontramos algunas definiciones de documentación, compartidas por autores reconocidos.
 
 
     .row.mt-2.justify-content-center
@@ -142,7 +142,7 @@
                 img(src='@/assets/curso/temas/tema1/img5.svg', alt='Texto que describa la imagen')
                 
             .col-md-6
-              h4 Formato de almacenamiento y presentación:
+              h4 Formato de almacenamiento y presentación
               p.mb-2 Es clave recolectar la información de manera que pueda ser conservada, según sea el caso, en papel o a través de un medio digital; esta última opción podría reducir el tiempo en la elaboración del informe. En muchos casos, el registro fotográfico o cualquier otro tipo de material multimedia, puede ser útil como evidencia de los detalles anotados.
               p Según las políticas de cada empresa, se deben realizar copias de seguridad de toda la información recolectada, y almacenar esta información, utilizando la nomenclatura correcta, en las carpetas indicadas, evitando transportar información laboral en dispositivos o cuentas personales, utilizando siempre los medios y recursos oficiales de la organización.
 
@@ -187,7 +187,7 @@
 
     p Para identificar qué datos se deben incluir en la documentación, se recomienda considerar las siguientes tres preguntas:
           
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--blanco")
+    AcordionA(tipo="b" clase-tarjeta=" tarjeta--blanco line")
       .row(titulo="¿Cuál es el objetivo y qué relevancia tienen los datos que se han seleccionado? ")
         .col-md-7.mb-4.mb-md-0
           p Los datos seleccionados deberán ser verificables por otras personas en cualquier momento posterior, de modo que no se abran espacios de duda sobre el concepto e información presentada. Por ejemplo, al reportar la existencia de determinado número de equipos dentro del inventario de activos digitales, ese mismo número y toda la información adicional debe ser verificable por otras personas en caso de que se requiera. Es necesario evitar hacer mención o basar la documentación en datos que no puedan ser revisados por externos.
@@ -214,7 +214,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img50.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En muchos casos, al momento de elaborar un informe y organizar toda la documentación referente al tema, se abre la necesidad de trabajar con diferentes versiones que, en teoría, hacen parte de un mismo archivo. A continuación, se presentan algunas recomendaciones para tener un mayor control en el manejo de versiones de documentos.
+        p.mb-0 En muchos casos, al momento de elaborar un informe y organizar toda la documentación referente al tema, se abre la necesidad de trabajar con diferentes versiones que, en teoría, hacen parte de un mismo archivo. 
 
     .row.justify-content-around.align-items-center.mt-4      
       .col-lg-9
@@ -359,7 +359,7 @@
     .row.justify-content-around.align-items-center.mt-4      
       .col-lg-8
         .cajon.color-secundario.p-4
-          p.text-center Para comprender el ciclo de vida del proceso de la documentación, analice con atención la siguiente imagen:
+          p Para comprender el ciclo de vida del proceso de la documentación, analice con atención la siguiente imagen:
 
     .row.justify-content-around.align-items-center.mt-4.mb-5      
       .col-lg-11
@@ -459,7 +459,7 @@
             .col-lg-11
               p.edit2.text-white En lo referente al 
                 i software 
-                | aplican los mismos comentarios del hardware en cuanto a estandarización, compatibilidad y demás. Estos son algunos de los elementos que deben ser considerados en la ficha técnica.
+                | aplican los mismos comentarios del hardware en cuanto a estandarización, compatibilidad y demás. Estos son algunos de los elementos que deben ser considerados en la ficha técnica:
 
     .row.justify-content-center.my-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -595,7 +595,7 @@
 
     .row
       .col-lg-10
-        b En los recursos de 
+        b Entre los recursos de 
           i software 
           | que permiten acceder a reportes, se encuentran:
 
