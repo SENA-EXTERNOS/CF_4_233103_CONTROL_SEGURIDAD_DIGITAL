@@ -459,7 +459,7 @@
             .col-lg-11
               p.edit2.text-white En lo referente al 
                 i software 
-                | aplican los mismos comentarios del hardware en cuanto a estandarización, compatibilidad y demás. Estos son algunos de los elementos que deben ser considerados en la ficha técnica:
+                | aplican los mismos comentarios del #[em hardware] en cuanto a estandarización, compatibilidad y demás. Estos son algunos de los elementos que deben ser considerados en la ficha técnica:
 
     .row.justify-content-center.my-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -570,7 +570,7 @@
                     | Explore el Anexo 1 “Ejemplo de ficha técnica”.
                 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 1 - Ejemplo de ficha técnica.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download        
 
@@ -619,7 +619,7 @@
         p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i> Violación e ingreso erróneo de contraseñas.
         p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i> Listado de dispositivos conectados y apertura simultánea de cuentas. 
         p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i> Bases de datos con información confidencial, como usuarios y contraseñas de determinado sistema.
-        p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i> Monitores de recursos, fichas técnicas de dispositivos y software.
+        p <i class="fas fa-angle-right" STYLE="Color: #FC502D"></i> Monitores de recursos, fichas técnicas de dispositivos y <em> software.</em>
         
 
 </template>

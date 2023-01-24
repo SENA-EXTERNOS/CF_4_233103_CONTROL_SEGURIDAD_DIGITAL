@@ -101,7 +101,7 @@
                     | Ejemplo de bitácora
                 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 2 - Ejemplo de bitácora.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo2.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download        
    
@@ -188,7 +188,7 @@
                   p Para ampliar y ver con detalle la construcción del informe ejecutivo, revise muy bien, el Anexo 3 - Ejemplo de informe ejecutivo.
                   
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 3 - Ejemplo de informe ejecutivo.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo3.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download    
 
@@ -323,7 +323,7 @@
                     | Estructura del informe técnico
                 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 4 - Estructura del informe técnico.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo4.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download      
 
