@@ -461,17 +461,17 @@
                 i software 
                 | aplican los mismos comentarios del #[em hardware] en cuanto a estandarización, compatibilidad y demás. Estos son algunos de los elementos que deben ser considerados en la ficha técnica:
 
-    .row.justify-content-center.my-5
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+    .row.justify-content-center.my-4
+      .col-lg-5.col-md-9.col-11.mb-4.mb-xl-0.my-3
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema1/img30.png", alt="alt")
           .crd_hover_txt--body
-            h4.textedit5.text-center Datos de fabricación:
+            h4 Datos de fabricación:
             p.mb-0 Fabricante, versión y licencia de uso.                                                                                    
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-lg-5.col-md-9.col-11.mb-4.mb-xl-0.my-3
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -484,7 +484,7 @@
               | y sistema operativo.
 
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-lg-5.col-md-9.col-11.mb-4.mb-xl-0.my-3
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -495,7 +495,7 @@
             p.mb-0 En las especificaciones se deberá tener como mínimo las recomendaciones para correr y asegurar el funcionamiento del programa. Por ejemplo, la capacidad de memoria RAM y ROM necesarias, procesador, etcétera. 
 
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-lg-5.col-md-9.col-11.mb-4.mb-xl-0.my-3
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure

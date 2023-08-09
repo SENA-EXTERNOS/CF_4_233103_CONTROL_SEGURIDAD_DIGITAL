@@ -110,7 +110,7 @@ export default {
         'Crehana. (2021). <em>Plantilla para reporte ejecutivo en Word.</em>',
       tipo: 'Página web.',
       link:
-        'https://www.crehana.com/recursos/herramientas/plantilla-reporte-ejecutivo/ ',
+        'https://www.crehana.com/recursos/herramientas/plantilla-reporte-ejecutivo/',
     },
     {
       tema: 'Elaboración de reportes',
@@ -119,7 +119,7 @@ export default {
       tipo:
         'Artículo PDF descargable, lectura y ejemplo de informe técnico recomendado.',
       link:
-        'https://www.cajaviviendapopular.gov.co/sites/default/files/208-TIC-Mn-11%20INFORME%20TE%CC%81CNICO%20DIAGNO%CC%81STICO%20DEL%20MSPI%20V1.pdf ',
+        'https://www.cajaviviendapopular.gov.co/sites/default/files/208-TIC-Mn-11%20INFORME%20TE%CC%81CNICO%20DIAGNO%CC%81STICO%20DEL%20MSPI%20V1.pdf',
     },
     {
       tema: 'Elaboración de reportes',
