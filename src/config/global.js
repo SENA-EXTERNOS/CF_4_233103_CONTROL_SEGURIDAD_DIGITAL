@@ -152,7 +152,7 @@ export default {
         'es el proceso de investigar, consultar y recolectar información de diversas fuentes para elaborar la documentación pertinente a un informe.',
     },
     {
-      termino: 'Documento ',
+      termino: 'Documento',
       significado:
         'es el término que se usa generalmente para referirse a cualquier tipo de archivo que contenga algún tipo de información, sea escrita, en audio, video o imágenes. La utilidad y relevancia de dicho documento variará en función del contexto en el que se examine.',
     },

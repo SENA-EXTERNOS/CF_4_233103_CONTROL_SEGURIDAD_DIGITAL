@@ -41,7 +41,7 @@
                     .bloque-texto-b.blanco
                       .bloque-texto-b__texto.mt-2
                         i.fas.fa-quote-left
-                        p Una ciencia que se ocupa de los documentos, esto es, de los vehículos sobre los que se transmiten las ciencias, por lo que se dota al saber documental de un carácter instrumental como ciencia para la ciencia. De ahí que la construcción de la noción de Documentación se basa en la ejecución de un proceso con una fuerte carga informativa, lo que lleva a la disciplina a participar del espectro de las ciencias informativas, es decir, de aquellas que tienen como objeto de estudio un proceso informativo en que se dan los elementos habituales de sujeto emisor, medio, mensaje y sujeto receptor (p. 129).
+                        p Una ciencia que se ocupa de los documentos, esto es, de los vehículos sobre los que se transmiten las ciencias, por lo que se dota al saber documental de un carácter instrumental como ciencia para la ciencia. De ahí que la construcción de la noción de documentación se basa en la ejecución de un proceso con una fuerte carga informativa, lo que lleva a la disciplina a participar del espectro de las ciencias informativas, es decir, de aquellas que tienen como objeto de estudio un proceso informativo en que se dan los elementos habituales de sujeto emisor, medio, mensaje y sujeto receptor (p. 129).
                         i.fas.fa-quote-right
 
 
@@ -258,7 +258,7 @@
             .col-md-8.mb-4.mb-md-0
               p A la hora de trabajar en grupo y tener que manipular diferentes versiones del mismo informe, es fundamental la comunicación y el orden en el trabajo.
 
-    h3 Niveles de Documentación
+    h3 Niveles de documentación
 
     .row.mt-2.justify-content-center.mt-4
       .col-lg-12
@@ -274,7 +274,7 @@
     .row.mt-5
       .col-lg-12
         TabsA.color-acento-botones.mb-5        
-          .tarjeta.color-tarjetacliente.p-4(titulo="Nivel de ítems o variables")      
+          .tarjeta.color-tarjetacliente.p-4(titulo="Nivel de ítems o<br> variables")      
             .row           
               .col-xl-10
                 
@@ -406,7 +406,7 @@
             .bloque-texto-b__texto
               i.fas.fa-quote-left
               p.mb-0 Una ficha técnica es un tipo de documento que nos expone las características principales de algo, sea cual sea el objeto. El tipo de ficha técnica y la información que en ella se encuentre dependerá mucho de la finalidad de la misma. Lo importante a considerar es que toda ficha técnica posee propiedades distintivas y características técnicas del objeto. Podemos encontrar fichas de medicamentos, productos químicos, aparatos, alimentos, etcétera (párr. 3)
-              b.edit3  Berdejo (2020)
+              b.edit3 Berdejo (2020)
               i.fas.fa-quote-right
 
     .row.justify-content-center.mt-5

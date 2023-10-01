@@ -204,7 +204,7 @@
               
                  
               .bloque-texto-b.color-gris.p-3
-                b.text-center Coll (2020), indica que un informe técnico consiste en 
+                b.text-center Coll (2020), indica que un informe técnico consiste en: 
                 .bloque-texto-b__texto
                   
                   i.fas.fa-quote-left
@@ -319,7 +319,7 @@
 
                 .col-lg-7
                   b Anexo 4. 
-                    | Estructura del informe técnico
+                    | Estructura de informe técnico
                 
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo4.pdf')" target="_blank")
